@@ -1,0 +1,60 @@
+
+https://quartz.jzhao.xyz/getting-started/installation
+
+-----------------------------
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Windows\system32> cd "F:\anand(E)\anand\computer-ebooks"
+PS F:\anand(E)\anand\computer-ebooks> git clone https://github.com/jackyzha0/quartz.git
+Cloning into 'quartz'...
+remote: Enumerating objects: 14330, done.
+remote: Total 14330 (delta 0), reused 0 (delta 0), pack-reused 14330 (from 1)
+Receiving objects: 100% (14330/14330), 38.97 MiB | 4.63 MiB/s, done.
+Resolving deltas: 100% (9067/9067), done.
+Updating files: 100% (295/295), done.
+PS F:\anand(E)\anand\computer-ebooks> cd .\ETRM_Notes\
+PS F:\anand(E)\anand\computer-ebooks\ETRM_Notes> npm i
+
+added 365 packages, and audited 366 packages in 26s
+
+135 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (1 low, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn install-scripts 4 packages have install scripts not yet covered by allowScripts:
+npm warn install-scripts   @parcel/watcher@2.6.0 (install: node scripts/build-from-source.js)
+npm warn install-scripts   esbuild@0.27.7 (postinstall: node install.js)
+npm warn install-scripts   sharp@0.34.5 (install: node install/check.js || npm run build)
+npm warn install-scripts   esbuild@0.28.1 (postinstall: node install.js)
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+PS F:\anand(E)\anand\computer-ebooks\ETRM_Notes> npx quartz create
+
+T   Quartz v5.0.0
+|
+o  Choose a template for your Quartz configuration
+|  Default
+|
+o  Choose how to initialize the content in `F:\anand(E)\anand\computer-ebooks\ETRM_Notes\content`
+|  Empty Quartz
+|
+o  Choose how Quartz should resolve links in your content. This should match Obsidian's link format. You can change thislater in `quartz.config.yaml`.
+|  Treat links as shortest path
+|
+o  Enter the base URL for your Quartz site (e.g. mysite.github.io/quartz)
+|  https://asura22nov.github.io/ETRM_Notes
+Created quartz.config.yaml from defaults
+✓ All configured plugins are already installed
+|
