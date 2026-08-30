@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: asura22nov.github.io/ETRM_Notes/content/
+  baseUrl: asura22nov.github.io/ETRM_Notes/
   ignorePatterns:
     - private
     - templates
